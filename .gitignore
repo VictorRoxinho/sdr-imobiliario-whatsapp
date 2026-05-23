@@ -1,0 +1,20 @@
+# Credenciais e segredos
+.env
+*.env
+KEYS.txt
+secrets.json
+
+# JSONs originais do n8n (com credenciais)
+FLUXO_*.json
+PILAR_*.json
+
+# Script de sanitização (uso local, não vai pro repo)
+sanitize.py
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
